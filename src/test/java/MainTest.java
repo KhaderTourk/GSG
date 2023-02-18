@@ -5,8 +5,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.Assert;
 import org.testng.annotations.*;
+
+import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertTrue;
 
 public class MainTest {
 
@@ -28,22 +30,22 @@ public class MainTest {
     @Test
     public void testTitleOnChrome() {
         String actualTitle = chromedriver.getTitle();
-        Assert.assertEquals(actualTitle, expectedTitle);
+        assertEquals(actualTitle, expectedTitle);
     }
     @Test
     public void testMainTitle() {
         String actualTitle = chromedriver.findElement(By.xpath("//h1[@class='learntocodeh1' and contains(text(),'Learn to Code')]")).getText();
-        Assert.assertEquals(actualTitle, expectedMainTitle);
+        assertEquals(actualTitle, expectedMainTitle);
     }
     @Test
     public void testIsDisplayed() {
         WebElement actualTitle = chromedriver.findElement(By.xpath("//h1[@class='learntocodeh1' and contains(text(),'Learn to Code')]"));
-        Assert.assertTrue(actualTitle.isDisplayed());
+        assertTrue(actualTitle.isDisplayed());
     }
     @Test
     public void testIsEnabled() {
         WebElement actualTitle = chromedriver.findElement(By.xpath("//h1[@class='learntocodeh1' and contains(text(),'Learn to Code')]"));
-        Assert.assertTrue(actualTitle.isEnabled());
+       assertTrue(actualTitle.isEnabled());
     }
 
     @AfterClass

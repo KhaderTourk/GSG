@@ -1,7 +1,19 @@
-<suite name="Testing Google Apps">
-    <test name="Regression">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing Google Apps" parallel="tests" thread-count="3">
+    <test name="Regression1" >
         <classes>
-            <class name="MainTest"/>
+            <class name="TestOnChrome"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="Regression2" >
+        <classes>
+            <class name="TestOnEdge"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="Regression3" >
+        <classes>
+            <class name="TestOnFirefox"/>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->
