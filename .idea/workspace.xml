@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8205f04d-7a78-470e-a9b3-0be71e095109" name="Changes" comment="try plugin latest version">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="8205f04d-7a78-470e-a9b3-0be71e095109" name="Changes" comment="try System Class Loader">
+      <change beforePath="$PROJECT_DIR$/testing.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testing.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +26,7 @@
     <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/Main.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/test/java/MainTest.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/testing.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/resources/testing.xml" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -53,6 +53,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\TOSHIBA\IdeaProjects\GSG-Web-Test-Example\src\test\java" />
       <recent name="C:\Users\TOSHIBA\IdeaProjects\GSG-Web-Test-Example\drivers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\TOSHIBA\IdeaProjects\GSG-Web-Test-Example\src\test\resources" />
     </key>
   </component>
   <component name="RunManager" selected="TestNG.C:/Users/TOSHIBA/IdeaProjects/GSG-Web-Test-Example/testing.xml">
@@ -174,7 +177,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676770260014</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="try suite file">
+      <created>1676770489489</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676770489489</updated>
+    </task>
+    <task id="LOCAL-00009" summary="try System Class Loader">
+      <created>1676770676745</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1676770676745</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -196,6 +213,8 @@
     <MESSAGE value="try maven" />
     <MESSAGE value="try plugin" />
     <MESSAGE value="try plugin latest version" />
-    <option name="LAST_COMMIT_MESSAGE" value="try plugin latest version" />
+    <MESSAGE value="try suite file" />
+    <MESSAGE value="try System Class Loader" />
+    <option name="LAST_COMMIT_MESSAGE" value="try System Class Loader" />
   </component>
 </project>
