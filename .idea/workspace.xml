@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8205f04d-7a78-470e-a9b3-0be71e095109" name="Changes" comment="use multi Driver">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8205f04d-7a78-470e-a9b3-0be71e095109" name="Changes" comment="try maven">
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestAddItemToCart.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676767611309</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="try maven">
+      <created>1676769373484</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676769373484</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -174,6 +179,7 @@
     <MESSAGE value="try the xml file" />
     <MESSAGE value="verify Main Sections Titles" />
     <MESSAGE value="use multi Driver" />
-    <option name="LAST_COMMIT_MESSAGE" value="use multi Driver" />
+    <MESSAGE value="try maven" />
+    <option name="LAST_COMMIT_MESSAGE" value="try maven" />
   </component>
 </project>
