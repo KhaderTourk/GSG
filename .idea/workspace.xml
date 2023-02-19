@@ -4,16 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8205f04d-7a78-470e-a9b3-0be71e095109" name="Changes" comment="try the xml file">
-      <change afterPath="$PROJECT_DIR$/drivers/geckodriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestMainSectionTitles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestOnChrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestOnEdge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestOnFirefox.java" afterDir="false" />
+    <list default="true" id="8205f04d-7a78-470e-a9b3-0be71e095109" name="Changes" comment="verify Main Sections Titles">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SetupDrivers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TearDownDrivers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestMainNavBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestSubPaths.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestMainSectionTitles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestMainSectionTitles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestOnChrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestOnChrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testing.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testing.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,24 +46,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/TOSHIBA/IdeaProjects/GSG-Web-Test-Example&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.24971229&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/TOSHIBA/IdeaProjects/GSG-Web-Test-Example/src/test/java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.24971229",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\TOSHIBA\IdeaProjects\GSG-Web-Test-Example\src\test\java" />
       <recent name="C:\Users\TOSHIBA\IdeaProjects\GSG-Web-Test-Example\drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestMainSectionTitles">
+  <component name="RunManager" selected="TestNG.C:/Users/TOSHIBA/IdeaProjects/GSG-Web-Test-Example/testing.xml">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="GSG-Web-Test-Example" />
@@ -116,9 +117,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/TOSHIBA/IdeaProjects/GSG-Web-Test-Example/testing.xml" />
         <item itemvalue="TestNG.TestMainSectionTitles" />
         <item itemvalue="TestNG.TestOnChrome" />
-        <item itemvalue="TestNG.C:/Users/TOSHIBA/IdeaProjects/GSG-Web-Test-Example/testing.xml" />
         <item itemvalue="TestNG.MainTest" />
         <item itemvalue="Application.Main" />
       </list>
@@ -147,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675875060697</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="verify Main Sections Titles">
+      <created>1676756803824</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676756803824</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,6 +172,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ready project" />
     <MESSAGE value="try the xml file" />
-    <option name="LAST_COMMIT_MESSAGE" value="try the xml file" />
+    <MESSAGE value="verify Main Sections Titles" />
+    <option name="LAST_COMMIT_MESSAGE" value="verify Main Sections Titles" />
   </component>
 </project>

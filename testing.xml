@@ -1,19 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Testing Google Apps" parallel="tests" thread-count="3">
-    <test name="Regression1" >
-        <classes>
-            <class name="TestOnChrome"/>
-        </classes>
-    </test> <!-- Test -->
-    <test name="Regression2" >
-        <classes>
-            <class name="TestOnEdge"/>
-        </classes>
-    </test> <!-- Test -->
-    <test name="Regression3" >
-        <classes>
-            <class name="TestOnFirefox"/>
-        </classes>
-    </test> <!-- Test -->
+<suite name="Testing Google Apps">
+    <!--<suite name="Testing Google Apps" parallel="tests" thread-count="4"> Test -->
+      <test name="Regression1">
+          <groups>
+              <run>
+                  <include name="chrome"/>
+              </run>
+          </groups>
+          <classes>
+              <class name="SetupDrivers"></class>
+              <class name="TestOnChrome"></class>
+              <class name="TestMainNavBar"></class>
+              <class name="TestMainSectionTitles"></class>
+              <class name="TestSubPaths"></class>
+              <class name="TearDownDrivers"></class>
+          </classes>
+      </test> <!-- Test -->
+     <test name="Regression2" >
+         <groups>
+             <run>
+                 <include name="edge"/>
+             </run>
+         </groups>
+         <classes>
+             <class name="SetupDrivers"></class>
+             <class name="TestOnChrome"></class>
+             <class name="TestMainNavBar"></class>
+             <class name="TestMainSectionTitles"></class>
+             <class name="TestSubPaths"></class>
+             <class name="TearDownDrivers"></class>
+         </classes>
+     </test><!--  Test -->
+     <test name="Regression3" >
+          <groups>
+              <run>
+                  <include name="firefox"/>
+              </run>
+          </groups>
+          <classes>
+              <class name="SetupDrivers"></class>
+              <class name="TestOnChrome"></class>
+              <class name="TestMainNavBar"></class>
+              <class name="TestMainSectionTitles"></class>
+              <class name="TestSubPaths"></class>
+              <class name="TearDownDrivers"></class>
+          </classes>
+       </test> <!-- Test -->
+    <!--   <test name="Regression3" >
+           <classes>
+               <class name="TestOnFirefox"/>
+           </classes>
+       </test>  Test -->
 </suite> <!-- Suite -->
