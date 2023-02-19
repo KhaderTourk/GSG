@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8205f04d-7a78-470e-a9b3-0be71e095109" name="Changes" comment="verify Main Sections Titles">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SetupDrivers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TearDownDrivers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestMainNavBar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestSubPaths.java" afterDir="false" />
+    <list default="true" id="8205f04d-7a78-470e-a9b3-0be71e095109" name="Changes" comment="use multi Driver">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestMainSectionTitles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestMainSectionTitles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestOnChrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestOnChrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testing.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestAddItemToCart.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +48,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.24971229",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -155,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676756803824</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="use multi Driver">
+      <created>1676767611309</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676767611309</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -173,6 +173,7 @@
     <MESSAGE value="Ready project" />
     <MESSAGE value="try the xml file" />
     <MESSAGE value="verify Main Sections Titles" />
-    <option name="LAST_COMMIT_MESSAGE" value="verify Main Sections Titles" />
+    <MESSAGE value="use multi Driver" />
+    <option name="LAST_COMMIT_MESSAGE" value="use multi Driver" />
   </component>
 </project>
